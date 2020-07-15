@@ -16,7 +16,15 @@ Two key things to learn / practice in this Kata:
 
 # Instructions
 
-1. Clone the repository with the following command.
+1. Fork the repository on Github. Click the ‘fork’ button in the top right to fork into your account.
+
+   Fork from https://github.com/xp-dojo-classes/tdd-bank-account-java
+
+   ![](fork_it.jpg)
+
+1. In your new fork, click on the “Actions” tab and then on the “I understand my workflows, go ahead and run them”
+
+   ![](enable_workdlows.jpg)
 
    `git clone https://github.com/xp-dojo/tdd-bank-account-java`
   
@@ -24,9 +32,7 @@ Two key things to learn / practice in this Kata:
    
    `git clone -c http.sslVerify=false https://github.com/xp-dojo/tdd-bank-account-java`
    
-   If you have problems with a proxy, you can `unset http_proxy` and `unset https_proxy` (or equivalent for your OS).
-
-1. Open the project from IntelliJ IDEA (community edition is fine). It has a Gradle build file which should be detected automatically. (If not, see [here](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start) for some help.) If you have problems with IntelliJ, see the [Troubleshooting](troubleshooting.md) document.
+   If you have problems with IntelliJ, see the [Troubleshooting](troubleshooting.md) document.
 
 1. You should now be able to run the `build` task from within the Gradle menu on the right-hand side of IntelliJ.
 
